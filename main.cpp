@@ -10,7 +10,7 @@
 
 using namespace std;
 
-void wczytajDaneDoStringa(vector <string> &dane){
+void wczytajDaneDoVectora(vector <string> &dane) {
 
     fstream plik;
     string pojedynczaLinia;
@@ -23,12 +23,22 @@ void wczytajDaneDoStringa(vector <string> &dane){
         plik.close();
         plik.clear();
     }
-    cout << dane[0] << dane[3];
 }
 
-int main()
-{
-    vector <string> *wczytaneDaneZPliku = new vector <string>(0);
-    wczytajDaneDoStringa(*wczytaneDaneZPliku);
+void scalajWpisDoJednejLinii (vector <string> &daneWejsciowe, vector <string> &daneScalone){
+    int i=0;
+    string temp, IDWpisu, imie, nazwiskon telefon, mail, adres;
+    while (i<daneWejsciowe.size()){
+        IDWpisu=daneWejsciowe[i];
+    }
+}
+
+int main() {
+    vector <string> *danePobranezPliku = new vector <string>(0);
+    vector <string> *daneDoZapisuDoPliku = new vector <string>(0);
+
+    wczytajDaneDoVectora(*danePobranezPliku);
+    scalajWpisDoJednejLinii(*danePobranezPliku, *daneDoZapisuDoPliku)
+
     return 0;
 }
