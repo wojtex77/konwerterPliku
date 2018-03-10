@@ -28,21 +28,15 @@ void wczytajDaneDoVectora(vector <string> &dane) {
 void scalajWpisDoJednejLinii (vector <string> &daneWejsciowe, vector <string> &daneScalone){
     int i=0;
     int iloscLiniiPlikuWejsciowego=daneWejsciowe.size();
-    cout << iloscLiniiPlikuWejsciowego;
     string liniaTekstu="|";
     while (i<iloscLiniiPlikuWejsciowego){
         liniaTekstu.append(daneWejsciowe[i]);
         liniaTekstu.append("|");
         i++;
         if ((i%6)==0){
-            //i=0;
             daneScalone.push_back(liniaTekstu);
-            cout << liniaTekstu;
             liniaTekstu="|";
         }
-    }
-    for (int k=0; k<1; k++){
-        cout << daneScalone[k];
     }
 }
 
