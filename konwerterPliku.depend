@@ -1,11 +1,7 @@
 # depslib dependency file v1.0
-1520692450 source:c:\users\admin\desktop\gitdemo\konwerterpliku\konwerterpliku\main.cpp
+1520693075 source:c:\users\admin\desktop\gitdemo\konwerterpliku\konwerterpliku\main.cpp
 	<iostream>
-	<windows.h>
 	<fstream>
-	<cstdlib>
-	<cstdio>
 	<string>
-	<conio.h>
 	<vector>
 
