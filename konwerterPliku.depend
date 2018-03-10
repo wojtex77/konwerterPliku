@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1520686977 source:c:\users\admin\desktop\gitdemo\konwerterpliku\konwerterpliku\main.cpp
+1520692450 source:c:\users\admin\desktop\gitdemo\konwerterpliku\konwerterpliku\main.cpp
 	<iostream>
 	<windows.h>
 	<fstream>
